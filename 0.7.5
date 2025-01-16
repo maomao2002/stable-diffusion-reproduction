@@ -1,0 +1,51 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple/
+Collecting test-tube
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/91/f0/5c32f2fbd824f32354f7f4632c957163071597bb2c6a4105f507bc9af7c0/test_tube-0.7.5.tar.gz (21 kB)
+Requirement already satisfied: numpy>=1.13.3 in d:\anaconda3\envs\ldm\lib\site-packages (from test-tube) (1.24.4)
+Requirement already satisfied: imageio>=2.3.0 in d:\anaconda3\envs\ldm\lib\site-packages (from test-tube) (2.9.0)
+Requirement already satisfied: tensorboard>=1.15.0 in d:\anaconda3\envs\ldm\lib\site-packages (from test-tube) (2.14.0)
+Requirement already satisfied: torch>=1.1.0 in d:\anaconda3\envs\ldm\lib\site-packages (from test-tube) (1.11.0)
+Requirement already satisfied: future in d:\anaconda3\envs\ldm\lib\site-packages (from test-tube) (1.0.0)
+Requirement already satisfied: pillow in d:\anaconda3\envs\ldm\lib\site-packages (from imageio>=2.3.0->test-tube) (10.4.0)
+Collecting pandas>=0.20.3
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/c3/6c/ea362eef61f05553aaf1a24b3e96b2d0603f5dc71a3bd35688a24ed88843/pandas-2.0.3-cp38-cp38-win_amd64.whl (10.8 MB)
+Collecting python-dateutil>=2.8.2
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Requirement already satisfied: six>=1.5 in d:\anaconda3\envs\ldm\lib\site-packages (from python-dateutil>=2.8.2->pandas>=0.20.3->test-tube) (1.16.0)
+Collecting pytz>=2020.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/11/c3/005fcca25ce078d2cc29fd559379817424e94885510568bc1bc53d7d5846/pytz-2024.2-py2.py3-none-any.whl (508 kB)
+Requirement already satisfied: google-auth-oauthlib<1.1,>=0.5 in d:\anaconda3\envs\ldm\lib\site-packages (from tensorboard>=1.15.0->test-tube) (1.0.0)
+Requirement already satisfied: requests<3,>=2.21.0 in d:\anaconda3\envs\ldm\lib\site-packages (from tensorboard>=1.15.0->test-tube) (2.32.3)
+Requirement already satisfied: tensorboard-data-server<0.8.0,>=0.7.0 in d:\anaconda3\envs\ldm\lib\site-packages (from tensorboard>=1.15.0->test-tube) (0.7.2)
+Requirement already satisfied: absl-py>=0.4 in d:\anaconda3\envs\ldm\lib\site-packages (from tensorboard>=1.15.0->test-tube) (2.1.0)
+Requirement already satisfied: markdown>=2.6.8 in d:\anaconda3\envs\ldm\lib\site-packages (from tensorboard>=1.15.0->test-tube) (3.7)
+Requirement already satisfied: wheel>=0.26 in d:\anaconda3\envs\ldm\lib\site-packages (from tensorboard>=1.15.0->test-tube) (0.44.0)
+Requirement already satisfied: grpcio>=1.48.2 in d:\anaconda3\envs\ldm\lib\site-packages (from tensorboard>=1.15.0->test-tube) (1.68.1)
+Requirement already satisfied: setuptools>=41.0.0 in d:\anaconda3\envs\ldm\lib\site-packages (from tensorboard>=1.15.0->test-tube) (75.1.0)
+Requirement already satisfied: protobuf>=3.19.6 in d:\anaconda3\envs\ldm\lib\site-packages (from tensorboard>=1.15.0->test-tube) (5.29.1)
+Requirement already satisfied: werkzeug>=1.0.1 in d:\anaconda3\envs\ldm\lib\site-packages (from tensorboard>=1.15.0->test-tube) (3.0.6)
+Requirement already satisfied: google-auth<3,>=1.6.3 in d:\anaconda3\envs\ldm\lib\site-packages (from tensorboard>=1.15.0->test-tube) (2.36.0)
+Requirement already satisfied: rsa<5,>=3.1.4 in d:\anaconda3\envs\ldm\lib\site-packages (from google-auth<3,>=1.6.3->tensorboard>=1.15.0->test-tube) (4.9)
+Requirement already satisfied: cachetools<6.0,>=2.0.0 in d:\anaconda3\envs\ldm\lib\site-packages (from google-auth<3,>=1.6.3->tensorboard>=1.15.0->test-tube) (5.5.0)
+Requirement already satisfied: pyasn1-modules>=0.2.1 in d:\anaconda3\envs\ldm\lib\site-packages (from google-auth<3,>=1.6.3->tensorboard>=1.15.0->test-tube) (0.4.1)
+Requirement already satisfied: requests-oauthlib>=0.7.0 in d:\anaconda3\envs\ldm\lib\site-packages (from google-auth-oauthlib<1.1,>=0.5->tensorboard>=1.15.0->test-tube) (2.0.0)
+Requirement already satisfied: importlib-metadata>=4.4 in d:\anaconda3\envs\ldm\lib\site-packages (from markdown>=2.6.8->tensorboard>=1.15.0->test-tube) (8.5.0)
+Requirement already satisfied: zipp>=3.20 in d:\anaconda3\envs\ldm\lib\site-packages (from importlib-metadata>=4.4->markdown>=2.6.8->tensorboard>=1.15.0->test-tube) (3.20.2)
+Requirement already satisfied: pyasn1<0.7.0,>=0.4.6 in d:\anaconda3\envs\ldm\lib\site-packages (from pyasn1-modules>=0.2.1->google-auth<3,>=1.6.3->tensorboard>=1.15.0->test-tube) (0.6.1)
+Requirement already satisfied: urllib3<3,>=1.21.1 in d:\anaconda3\envs\ldm\lib\site-packages (from requests<3,>=2.21.0->tensorboard>=1.15.0->test-tube) (2.2.3)
+Requirement already satisfied: charset-normalizer<4,>=2 in d:\anaconda3\envs\ldm\lib\site-packages (from requests<3,>=2.21.0->tensorboard>=1.15.0->test-tube) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in d:\anaconda3\envs\ldm\lib\site-packages (from requests<3,>=2.21.0->tensorboard>=1.15.0->test-tube) (3.7)
+Requirement already satisfied: certifi>=2017.4.17 in d:\anaconda3\envs\ldm\lib\site-packages (from requests<3,>=2.21.0->tensorboard>=1.15.0->test-tube) (2024.8.30)
+Requirement already satisfied: oauthlib>=3.0.0 in d:\anaconda3\envs\ldm\lib\site-packages (from requests-oauthlib>=0.7.0->google-auth-oauthlib<1.1,>=0.5->tensorboard>=1.15.0->test-tube) (3.2.2)
+Requirement already satisfied: typing_extensions in d:\anaconda3\envs\ldm\lib\site-packages (from torch>=1.1.0->test-tube) (4.11.0)
+Collecting tzdata>=2022.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a6/ab/7e5f53c3b9d14972843a647d8d7a853969a58aecc7559cb3267302c94774/tzdata-2024.2-py2.py3-none-any.whl (346 kB)
+Requirement already satisfied: MarkupSafe>=2.1.1 in d:\anaconda3\envs\ldm\lib\site-packages (from werkzeug>=1.0.1->tensorboard>=1.15.0->test-tube) (2.1.5)
+Building wheels for collected packages: test-tube
+  Building wheel for test-tube (setup.py): started
+  Building wheel for test-tube (setup.py): finished with status 'done'
+  Created wheel for test-tube: filename=test_tube-0.7.5-py3-none-any.whl size=25335 sha256=1162e11d30c52f073b7b33b862743a0c24444a227a9aad8f86b6c05482a050ab
+  Stored in directory: c:\users\liken\appdata\local\pip\cache\wheels\ab\ce\9b\3c870a47e3908c38bc5580a8207d05e1aa572ad82680f93837
+Successfully built test-tube
+Installing collected packages: tzdata, pytz, python-dateutil, pandas, test-tube
+Successfully installed pandas-2.0.3 python-dateutil-2.9.0.post0 pytz-2024.2 test-tube-0.7.5 tzdata-2024.2
